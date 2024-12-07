@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Student Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000000, #4b0082);
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #6a0dad;
+            padding: 40px;
+            text-align: center;
+            border-bottom: 2px solid #ff00ff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: white;
+        }
+
+        header p {
+            color: #dcdcdc;
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c003e;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 25px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff00ff;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        .greeting-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .greeting-box h2 {
+            font-size: 2.5rem;
+            color: #ff00ff;
+            margin-bottom: 10px;
+        }
+
+        .greeting-box p {
+            font-size: 1.2rem;
+            color: #dcdcdc;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .section h2 {
+            font-size: 2.2rem;
+            color: #ff00ff;
+            border-bottom: 2px solid #ff00ff;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            color: #dcdcdc;
+        }
+
+        .contact a {
+            color: #ff00ff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .contact a:hover {
+            color: #ffffff;
+        }
+
+        footer {
+            background-color: #2c003e;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            border-top: 2px solid #ff00ff;
+        }
+
+        footer p {
+            color: white;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Hover effect for sections */
+        .section:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <p>Student | Aspiring Developer | Lifelong Learner</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="greeting-box">
+        <h2>Hello, I'm Gershom</h2>
+        <p>Welcome to my portfolio! I'm a student passionate about technology and programming. Let's connect!</p>
+    </div>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a passionate student exploring the world of technology and programming. I am dedicated to learning new skills and improving myself as a developer. I love tackling challenging problems, building cool projects, and working collaboratively with others. Through my education, I am building a solid foundation in computer science, with a keen interest in software development and web design.</p>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p>I am currently pursuing a Bachelor's degree in Information Technology at Philippine Christian University. The program covers a variety of topics including programming, algorithms, data structures, web development, and more. I am continuously striving to expand my knowledge and gain hands-on experience through projects and internships.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>If you'd like to connect with me, feel free to send me an email or reach out via LinkedIn. I'd love to network and collaborate with like-minded individuals!</p>
+        <p>Email: <a href="moranogershomelison@gmail.com">moranogershomelison@gmail.com</a></p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Gershom Morano | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
